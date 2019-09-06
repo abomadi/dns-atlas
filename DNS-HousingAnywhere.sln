@@ -1,0 +1,52 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNS-HousingAnywhere", "DNS-HousingAnywhere\DNS-HousingAnywhere.csproj", "{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Business", "HA.DNS.Business\HA.DNS.Business.csproj", "{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Models", "HA.DNS.Models\HA.DNS.Models.csproj", "{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Business.Tests", "HA.DNS.Business.Tests\HA.DNS.Business.Tests.csproj", "{364ABADE-F078-4143-9794-2D0350C36F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNS-HousingAnywhere.IntegrationTest", "DNS-HousingAnywhere.IntegrationTest\DNS-HousingAnywhere.IntegrationTest.csproj", "{8A2066CB-355B-4C79-922A-409A283B8420}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03136395-575D-4F39-8823-0406C86F8643}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364ABADE-F078-4143-9794-2D0350C36F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364ABADE-F078-4143-9794-2D0350C36F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364ABADE-F078-4143-9794-2D0350C36F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364ABADE-F078-4143-9794-2D0350C36F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2066CB-355B-4C79-922A-409A283B8420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2066CB-355B-4C79-922A-409A283B8420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2066CB-355B-4C79-922A-409A283B8420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2066CB-355B-4C79-922A-409A283B8420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

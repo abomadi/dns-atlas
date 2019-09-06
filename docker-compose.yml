@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dns-housinganywhere:
+    image: ${DOCKER_REGISTRY-}dnshousinganywhere
+    build:
+      context: .
+      dockerfile: DNS-HousingAnywhere/Dockerfile
