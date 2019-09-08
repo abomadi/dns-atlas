@@ -31,7 +31,7 @@ namespace DNS_HousingAnywhere.IntegrationTest
             var content = new StringContent(coordsString.ToString(), Encoding.UTF8, "application/json");
 
             //Actc
-            var response = await _client.PostAsync("api/dns/GetBankLocation", content);
+            var response = await _client.PostAsync("api/dns/banklocation", content);
 
             // Assert
             response.EnsureSuccessStatusCode();
