@@ -1,15 +1,15 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNS-HousingAnywhere", "DNS-HousingAnywhere\DNS-HousingAnywhere.csproj", "{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Api", "HA.DNS.Api\HA.DNS.Api.csproj", "{F15B79D6-E12C-4E17-90D9-61A8190F4F4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Business", "HA.DNS.Business\HA.DNS.Business.csproj", "{468C86C8-F2C9-4E25-AF1B-9B9D59BED312}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Models", "HA.DNS.Models\HA.DNS.Models.csproj", "{BDEB48C6-251A-4BAD-B27B-1903C53A82AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Business.Tests", "HA.DNS.Business.Tests\HA.DNS.Business.Tests.csproj", "{364ABADE-F078-4143-9794-2D0350C36F7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Business.Tests", "tests\HA.DNS.Business.Tests\HA.DNS.Business.Tests.csproj", "{364ABADE-F078-4143-9794-2D0350C36F7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNS-HousingAnywhere.IntegrationTest", "DNS-HousingAnywhere.IntegrationTest\DNS-HousingAnywhere.IntegrationTest.csproj", "{8A2066CB-355B-4C79-922A-409A283B8420}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HA.DNS.Api.IntegrationTest", "tests\HA.DNS.Api.IntegrationTest\HA.DNS.Api.IntegrationTest.csproj", "{8A2066CB-355B-4C79-922A-409A283B8420}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{79549A07-B3FB-40CC-81A9-6CD0E0E17F75}"
 EndProject
