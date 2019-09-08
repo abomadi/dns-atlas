@@ -4,7 +4,7 @@ DNS is a Service / API built using .NET Core for providing drones a bank locatio
 
 ## Prerequisites
 ```bash
-- .NET Core SDK 2.2 https://dotnet.microsoft.com/download
+- .NET Core SDK 2.2 #https://dotnet.microsoft.com/download
 ```
 ## Installation
 
@@ -13,7 +13,7 @@ Steps to run the project
 ```bash
 git clone https://github.com/abomadi/dns-atlas.git
 cd DNS-HousingAnywhere
-dotnet restore - restoring all dependency packages
+dotnet restore #restoring all dependency packages
 
 RUN THE TESTS
 dotnet test HA.DNS.Business.Tests # Run Unit Tests
